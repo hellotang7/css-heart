@@ -5,11 +5,27 @@
   height: 50px;
   display: inline-block;
   position: relative;
-  margin: 100px;
-  animation: xx 1s linear infinite alternate;
+  margin: 200px 170px;
+  animation: xx 1s  infinite alternate;
 }
 
-@keyframes xx {
+div{position: relative;}
+h1{
+position: absolute;
+margin: 280px 132px;
+white-space: nowrap;
+animation: x 1s linear infinite alternate;
+}
+
+@keyframes xx  {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+@keyframes x {
   0% {
     transform: scale(1);
   }
@@ -47,3 +63,4 @@
   border-radius: 50% 50% 0% 0%;
   background: red;
 }
+
