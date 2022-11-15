@@ -6,15 +6,36 @@
   display: inline-block;
   position: relative;
   margin: 200px 170px;
-  animation: xx 1s  infinite alternate;
+  animation: xx 1s infinite alternate;
 }
 
-div{position: relative;}
-h1{
+.p{
+  position: relative;
+ 
+}
+.a{
 position: absolute;
-margin: 280px 132px;
-white-space: nowrap;
-animation: x 1s linear infinite alternate;
+margin: 310px 130px;
+
+animation: xxx 850ms  infinite alternate;
+}
+.b{
+position: absolute;
+margin: 310px 165px;
+
+animation: xxxx 1000ms  infinite alternate;
+}
+.c{
+position: absolute;
+margin: 310px 200px;
+
+animation: xxxxx 1150ms  infinite alternate;
+}
+.d{
+position: absolute;
+margin: 310px 235px;
+
+animation: xxxxxx 1300ms  infinite alternate;
 }
 
 @keyframes xx  {
@@ -25,12 +46,36 @@ animation: x 1s linear infinite alternate;
     transform: scale(1.5);
   }
 }
-@keyframes x {
+@keyframes xxx  {
   0% {
-    transform: scale(1);
+    top: 0px;
   }
   100% {
-    transform: scale(1.5);
+    top: 13px;
+  }
+}
+@keyframes xxxx  {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 12px;
+  }
+}
+@keyframes xxxxx  {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 11px;
+  }
+}
+@keyframes xxxxxx  {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 10px;
   }
 }
 
